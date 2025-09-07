@@ -14,7 +14,8 @@ Execute the script to split the *.txt files into the output-directory:
 # sh ~/ssc-to-sos-conv.sh <output-directory>
 ```
 
-#2 Create a text file called desired_packages.txt in the same path as the sync_packages.sh script.
+#2 sync_packages.sh script:
+Create a text file called desired_packages.txt in the same path as the sync_packages.sh script.
 Add the packages with their versions and architectures you wish to match to.
 Change the permissions of the script:
 ```bash
