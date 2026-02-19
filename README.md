@@ -25,3 +25,10 @@ Excute the script:
 ```bash
 # ./sync_packages.sh
 ```
+
+#3 mem_report.py script:
+mem_report.py is a lightweight Python utility that parses a Linux /proc/meminfo file and produces a human-readable memory analysis report similar to the free command — while also showing the exact calculations used.
+Excute the script:
+```bash
+# python mem_report.py /proc/meminfo
+```
