@@ -1,0 +1,10 @@
+QUAY_DIR=/opt/quay
+QUAY_FQDN=quay.example.com
+POSTGRES_USER=quayuser
+POSTGRES_PASS=****
+POSTGRES_ADMIN_PASS=****
+REDIS_PASSWORD=****
+POSTGRES_IMAGE=registry.redhat.io/rhel9/postgresql-15
+REDIS_IMAGE=registry.redhat.io/rhel9/redis-6:latest
+QUAY_IMAGE=registry.redhat.io/quay/quay-rhel9:v3.16
+CREATE_SUPERUSER=y
