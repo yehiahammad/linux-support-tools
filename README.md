@@ -32,3 +32,11 @@ Excute the script:
 ```bash
 # python mem_report.py /proc/meminfo
 ```
+
+#4 deploy-quay.sh script:
+Deploy a quay image registry on your server. Server must be connected to the internet to pull images. Script collects answers from the answers.txt file or you will supply the answers yourself if they do not exist.
+Excute the script:
+```bash
+# chmod +x deploy-quay.sh
+# sh deploy-quay.sh
+```
