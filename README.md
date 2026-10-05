@@ -23,7 +23,9 @@ Change the permissions of the script:
 ```
 Excute the script:
 ```bash
-# ./sync_packages.sh
+# ./sync_packages.sh desired_packages.txt      # Execute sync with confirmation prompts
+# ./sync_packages.sh -d desired_packages.txt   # Preview changes (Dry Run)
+# ./sync_packages.sh -y desired_packages.txt   # Execute non-interactively
 ```
 
 #3 mem_report.py script:
